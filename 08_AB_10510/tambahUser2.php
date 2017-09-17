@@ -7,7 +7,7 @@ $level = $_POST['level'];
 $input = "insert into user(username, password, level) values ('$username', '$password', '$level')";
 	
 	$cek = "SELECT *FROM user WHERE username = '$username'";
-	$hasil = mysqli_query($conn, $cek)
+	$hasil = mysqli_query($conn, $cek);
 	$cek_user = mysqli_num_rows($hasil);
 	
 	if ($cek_user > 0) {
