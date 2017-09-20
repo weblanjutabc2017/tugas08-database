@@ -61,7 +61,7 @@
 							<td><?php echo $data[2];?></td>
 							<td>
 								<a href= "updateUser.php?id=<?php echo $data[0];?>" class = "update">Update</a>
-								<a href= "hapusUser.php?id=<?php echo $data[0];?>" class = "delete" onclick = "return confirm('Anda yakin menghapus data user <?php echo $data[1];?>?')">Hapus</a>
+								<a href= "hapusUser.php?id=<?php echo $data[0];?>" class = "delete" onclick = "return confirm('Anda yakin menghapus data user <?php echo $data[0];?>?')">Hapus</a>
 							</td>
 						</tr>
 						<?php $no++; 
